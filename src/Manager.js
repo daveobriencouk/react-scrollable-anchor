@@ -86,7 +86,7 @@ class Manager {
       jump(element, {
         duration: this.config.scrollDuration,
         offset: this.config.offset,
-        a11y: this.config.a11y
+        a11y: this.config.a11y,
       })
     } else {
       // make sure that standard hash anchors don't break.
@@ -96,7 +96,7 @@ class Manager {
         jump(element, {
           duration: 0,
           offset: this.config.offset,
-          a11y: this.config.a11y
+          a11y: this.config.a11y,
         })
       }
     }
